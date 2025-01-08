@@ -7,6 +7,17 @@ public class ClassJava2 {
 	 private String  sobrenome ;
 
 	 private int idade ;
+	 
+	 private date dataNascimento ;
+	 
+	public date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+
 	public int getIdade() {
 		return idade;
 	}
